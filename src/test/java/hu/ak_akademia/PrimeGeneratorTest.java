@@ -14,11 +14,11 @@ public class PrimeGeneratorTest {
     }
 
     @Test
-    public void Test2() {
+    void Test2() {
         assertFalse(PrimeGenerator.isPrime(15));
     }
     @Test
-    public void Test3() {
+    void Test3() {
         assertTrue(PrimeGenerator.isPrime(5));
     }
 }

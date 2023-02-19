@@ -7,7 +7,7 @@ public class Environment {
         this.generator = generator;
     }
 
-    public void run(Series generator) {
+    public void run() {
         for (int i = 0; i < 100; i++) {
             if (generator.isHasNextStep()) {
                 System.out.println(generator.nextStep());

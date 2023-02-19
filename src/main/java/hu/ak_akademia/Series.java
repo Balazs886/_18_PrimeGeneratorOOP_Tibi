@@ -6,7 +6,6 @@ public interface Series {
 
     Integer nextStep();
 
-
 }
 
 

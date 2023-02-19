@@ -1,24 +1,31 @@
 package hu.ak_akademia;
 
-import org.junit.Assert;
 import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
 public class PrimeGeneratorTest {
     @Test
-    void Test1() {
+    void TestNOK() {
         PrimeGenerator pg = new PrimeGenerator();
-        Assert.assertFalse(pg.isHasNextStep());
-
+        assertFalse(pg.checkPrim(15));
     }
 
     @Test
-    void Test2() {
-        assertFalse(PrimeGenerator.isPrime(15));
+    void TestOK() {
+        PrimeGenerator pg = new PrimeGenerator();
+        assertTrue(pg.checkPrim(5));
     }
+
     @Test
-    void Test3() {
-        assertTrue(PrimeGenerator.isPrime(5));
+    void TestBigOK() {
+        PrimeGenerator pg = new PrimeGenerator();
+        assertTrue(pg.checkPrim(6361));
+    }
+
+    @Test
+    void TestBigNOK() {
+        PrimeGenerator pg = new PrimeGenerator();
+        assertFalse(pg.checkPrim(6361000));
     }
 }

@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4aef75e0-a21c-48e7-8298-b97c48e61196" name="Changes" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/hu/ak_akademia/State.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/ak_akademia/Environment.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/ak_akademia/Environment.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/ak_akademia/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/ak_akademia/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/hu/ak_akademia/PrimeGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/hu/ak_akademia/PrimeGenerator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/hu/ak_akademia/PrimeGeneratorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hu/ak_akademia/PrimeGeneratorTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -24,7 +20,6 @@
         <option value="Interface" />
         <option value="Class" />
         <option value="JUnit5 Test Class" />
-        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -48,16 +43,8 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
-    "dart.analysis.tool.window.visible": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": ""
   }
 }]]></component>
   <component name="RecentsManager">
@@ -68,20 +55,7 @@
       <recent name="hu.ak_akademia" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="hu.ak_akademia.Main" />
-      <module name="_18_PrimeGeneratorOOP_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.ak_akademia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.PrimeGeneratorTest">
     <configuration name="PrimeGeneratorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="_18_PrimeGeneratorOOP_2" />
       <extension name="coverage">
@@ -93,6 +67,38 @@
       <option name="PACKAGE_NAME" value="hu.ak_akademia" />
       <option name="MAIN_CLASS_NAME" value="hu.ak_akademia.PrimeGeneratorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeGeneratorTest.Test1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_18_PrimeGeneratorOOP_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.ak_akademia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.ak_akademia" />
+      <option name="MAIN_CLASS_NAME" value="hu.ak_akademia.PrimeGeneratorTest" />
+      <option name="METHOD_NAME" value="Test1" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PrimeGeneratorTest.Test2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="_18_PrimeGeneratorOOP_2" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="hu.ak_akademia.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="hu.ak_akademia" />
+      <option name="MAIN_CLASS_NAME" value="hu.ak_akademia.PrimeGeneratorTest" />
+      <option name="METHOD_NAME" value="Test2" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -113,45 +119,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PrimeGeneratorTest.TestBigNOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_18_PrimeGeneratorOOP_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.ak_akademia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hu.ak_akademia" />
-      <option name="MAIN_CLASS_NAME" value="hu.ak_akademia.PrimeGeneratorTest" />
-      <option name="METHOD_NAME" value="TestBigNOK" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PrimeGeneratorTest.TestBigOK" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="_18_PrimeGeneratorOOP_2" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="hu.ak_akademia.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="hu.ak_akademia" />
-      <option name="MAIN_CLASS_NAME" value="hu.ak_akademia.PrimeGeneratorTest" />
-      <option name="METHOD_NAME" value="TestBigOK" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.PrimeGeneratorTest" />
-        <item itemvalue="JUnit.PrimeGeneratorTest.TestBigNOK" />
-        <item itemvalue="JUnit.PrimeGeneratorTest.TestBigOK" />
         <item itemvalue="JUnit.PrimeGeneratorTest.Test3" />
+        <item itemvalue="JUnit.PrimeGeneratorTest.Test2" />
+        <item itemvalue="JUnit.PrimeGeneratorTest.Test1" />
       </list>
     </recent_temporary>
   </component>
@@ -163,7 +136,6 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1676752342955</updated>
-      <workItem from="1676809209501" duration="1332000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1676805967686</created>
@@ -174,9 +146,6 @@
     </task>
     <option name="localTasksCounter" value="2" />
     <servers />
-  </component>
-  <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
